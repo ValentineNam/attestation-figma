@@ -171,3 +171,13 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+.img-rectangle-3 {
+  width: 564px;
+  height: 564px;
+  flex-shrink: 0;
+  margin: 0px 0px 0px 79px;
+  /* border-radius: 0px 0px 0px 191px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50); */
+}
