@@ -1,0 +1,74 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins-Regular";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Poppins-Bold";
+  src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+
+body {
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  margin: 0px;
+  padding-top: 45px;
+  padding-left: 78px;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+}
+
+.logo {
+  color: #0E0578;
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 251px;
+  height: 72px;
+}
+
+.nav-container {
+  display: flex;
+  height: 45px;
+  margin-left: 241px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-elem {
+  margin-right: 79px;
+}
+
+.nav-elem a {
+  color: #686565;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+
+.nav-elem a:hover {
+  color: #F2BD00;
+}
+/* section 1*/
