@@ -1,6 +1,7 @@
 :root {
   --color-blue: #2000E7;
   --color-orange: #F2BD00;
+  --color-dark-blue: #0E0578;
 }
 
 @font-face {
@@ -33,7 +34,7 @@ body {
 }
 
 .logo {
-  color: #0E0578;
+  color: var(--color-dark-blue);
   font-family: 'Poppins-Bold', sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -156,6 +157,12 @@ body {
   margin-right: 79px;
 }
 
+.btn-hire-me:active {
+  background-color: var(--color-dark-blue);
+  box-shadow: 11px 19px 15px 6px rgba(0, 0, 0, 0.25);
+  transform: translateY(2px);
+}
+
 .btn-my-project {
   width: 246px;
   height: 72px;
@@ -172,12 +179,19 @@ body {
   line-height: normal;
 }
 
+.btn-my-project:active {
+  background-color: rgba(32, 255, 231, 0.04);
+  box-shadow: 11px 19px 15px 6px rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--color-orange);
+  transform: translateY(2px);
+  color: var(--color-orange);
+}
+
 .img-rectangle-3 {
   width: 564px;
   height: 564px;
   flex-shrink: 0;
   margin: 0px 0px 0px 79px;
-  /* border-radius: 0px 0px 0px 191px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50); */
 }
+
+/* Section 2*/
