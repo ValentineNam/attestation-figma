@@ -155,6 +155,7 @@ body {
   font-weight: 400;
   line-height: normal;
   margin-right: 79px;
+  cursor: pointer;
 }
 
 .btn-hire-me:active {
@@ -177,6 +178,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 
 .btn-my-project:active {
