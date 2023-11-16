@@ -1,3 +1,8 @@
+:root {
+  --h-color-blue: #2000E7;
+  --color-orange: #F2BD00;
+}
+
 @font-face {
   font-weight: 400;
   font-family: "Poppins-Regular";
@@ -18,7 +23,7 @@ body {
 }
 
 /* header */
-header {
+.head-container {
   margin: 0px;
   padding-top: 45px;
   padding-left: 78px;
@@ -69,6 +74,63 @@ header {
 
 
 .nav-elem a:hover {
-  color: #F2BD00;
+  color: var(--color-orange);
 }
 /* section 1*/
+
+.welcome-section {
+  margin: 0px;
+  padding-top: 201px;
+  padding-left: 78px;
+  display: flex;
+  /* align-items: center;
+  width: 1440px; */
+}
+
+.left-block h2 {
+  width: 372px;
+  height: 45px;
+  color: var(--h-color-blue);
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 5px 0px;
+}
+
+.left-block h1 {
+  width: 447px;
+  height: 144px;
+  color: var(--h-color-blue);
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px 0px 21px 0px;
+}
+
+.left-block h1 span {
+  width: 447px;
+  height: 144px;
+  color: var(--color-orange);
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+
+.left-block p {
+  width: 616px;
+  height: 72px;
+  flex-shrink: 0;
+  color: #383838;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
