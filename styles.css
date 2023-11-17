@@ -83,6 +83,7 @@ body {
 .welcome-section {
   margin: 0px;
   padding-top: 201px;
+  padding-bottom: 180px;
   padding-left: 78px;
   display: flex;
   /* align-items: center;
@@ -197,3 +198,45 @@ body {
 }
 
 /* Section 2*/
+.about-me {
+  width: 1440px;
+  height: 910px;
+  flex-shrink: 0;
+  margin: 0px;
+  display: flex;
+  background-color: #43BAFD0F;
+  padding-top: 201px;
+  padding-bottom: 180px;
+  padding-left: 46px;
+}
+
+.about-me h1 {
+  color: var(--color-blue);
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 16.8px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 14px;
+}
+
+.about-me p {
+  width: 415px;
+  height: 303px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.about-me button {
+  margin: 26px 0px 0px 0px;
+  padding: 0px;
+}
