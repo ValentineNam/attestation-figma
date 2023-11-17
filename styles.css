@@ -247,3 +247,35 @@ body {
 }
 
 /* section 3 */
+
+.my-projects {
+  width: 1440px;
+  height: 910px;
+  flex-shrink: 0;
+  background-color: rgba(255, 214, 150, 0.20);
+  margin-top: 301px;
+  margin-bottom: 272px;
+}
+
+.my-projects-container h1 {
+  color: var(--color-blue);
+  font-family: 'Poppins-Bold', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 9.6px;
+  padding: 35px 0px 0px 488px;
+  margin-bottom: 0px;
+}
+
+.my-projects-container p{
+  color: #000;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  padding-left: 412px;
+}
