@@ -78,7 +78,7 @@ body {
   color: var(--color-orange);
 }
 
-/* section 1*/
+/* section 1 */
 
 .welcome-section {
   margin: 0px;
@@ -86,8 +86,6 @@ body {
   padding-bottom: 180px;
   padding-left: 78px;
   display: flex;
-  /* align-items: center;
-  width: 1440px; */
 }
 
 .left-block h2 {
@@ -197,7 +195,7 @@ body {
   margin: 0px 0px 0px 79px;
 }
 
-/* Section 2*/
+/* section 2 */
 .about-me {
   width: 1440px;
   height: 910px;
@@ -205,9 +203,11 @@ body {
   margin: 0px;
   display: flex;
   background-color: #43BAFD0F;
-  padding-top: 201px;
-  padding-bottom: 180px;
   padding-left: 46px;
+}
+
+.about-me-container {
+  margin-top: 201px;
 }
 
 .about-me h1 {
@@ -240,3 +240,10 @@ body {
   margin: 26px 0px 0px 0px;
   padding: 0px;
 }
+
+.about-me-image {
+  margin-top: -15px;
+  margin-left: 79px;
+}
+
+/* section 3 */
