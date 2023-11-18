@@ -84,10 +84,20 @@ body {
 
 .welcome-section {
   margin: 0px;
-  padding-top: 201px;
-  padding-bottom: 180px;
-  padding-left: 78px;
   display: flex;
+  width: 1440px;
+}
+
+.left-block {
+  margin-top: 201px;
+  margin-bottom: 180px;
+  margin-left: 78px;
+  margin-right: 0px;
+}
+
+.right-block {
+  margin-top: 201px;
+  margin-bottom: 180px;
 }
 
 .left-block h2 {
@@ -205,11 +215,11 @@ body {
   margin: 0px;
   display: flex;
   background-color: #43BAFD0F;
-  padding-left: 46px;
 }
 
 .about-me-container {
   margin-top: 201px;
+  margin-left: 46px;
 }
 
 .about-me h1 {
@@ -280,4 +290,16 @@ body {
   line-height: normal;
   margin: 0px;
   padding-left: 412px;
+}
+
+.projects-gallery {
+  height: 656px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 46px;
+}
+
+.gallery-item {
+  margin: 0px 87.75px 0px 87.75px;
 }
