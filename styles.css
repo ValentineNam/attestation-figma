@@ -345,6 +345,10 @@ body {
   margin-left: 66px;
 }
 
+.contact-me-container {
+  display: flex;
+}
+
 .form-column {
   display: flex;
   flex-direction: column;
@@ -362,10 +366,11 @@ body {
   letter-spacing: 0em;
   text-align: left;
   padding-left: 55px;
+  cursor: text;
 }
 
 .email-form {
-  width: 649px;
+  width: 594px;
   height: 92px;
   top: 159px;
   border: none;
@@ -375,7 +380,7 @@ body {
 
 .password-form {
   resize: none;
-  width: 649px;
+  width: 594px;
   height: 92px;
   top: 334px;
   border: none;
@@ -384,7 +389,7 @@ body {
 }
 
 .message-form {
-  width: 649px;
+  width: 594px;
   height: 265px;
   border: none;
   box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
@@ -401,4 +406,10 @@ body {
   cursor: pointer;
   text-align: center;
   padding-left: 0px;
+}
+
+.contact-me .right-block {
+  position: absolute;
+  top: 3448px;
+  left: 584px;
 }
