@@ -413,3 +413,26 @@ body {
   top: 3448px;
   left: 584px;
 }
+
+/* footer */
+.footer {
+  width: 1440px;
+  height: 809px;
+  margin-top: 208px;
+  background: #FFD69633;
+}
+
+.footer-container {
+  height: 633px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-container * {
+  display: flex;
+  width: 100px;
+}
+
+.copyright-container {
+  height: 46px;
+}
