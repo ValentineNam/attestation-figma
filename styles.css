@@ -2,6 +2,7 @@
   --color-blue: #2000E7;
   --color-orange: #F2BD00;
   --color-dark-blue: #0E0578;
+  --color-white: #FFFFFF;
   --pop-bold: 'Poppins-Bold', sans-serif;
   --pop-reg: 'Poppins-Regular', sans-serif;
   --width-full: 1440px;
@@ -337,4 +338,67 @@ body {
   padding-top: 10px;
   padding-left: 435px;
   margin: 0px;
+}
+
+.contact-me .left-block {
+  margin-top: 159px;
+  margin-left: 66px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+.form-column * {
+  margin-bottom: 81px;
+  font-family: var(--pop-reg);
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 55px;
+}
+
+.email-form {
+  width: 649px;
+  height: 92px;
+  top: 159px;
+  border: none;
+  box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+}
+
+.password-form {
+  resize: none;
+  width: 649px;
+  height: 92px;
+  top: 334px;
+  border: none;
+  box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+}
+
+.message-form {
+  width: 649px;
+  height: 265px;
+  border: none;
+  box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  margin-bottom: 49px;
+}
+
+.btn-contact {
+  width: 327px;
+  height: 94px;
+  border: none;
+  background-color: var(--color-white);
+  box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  padding-left: 0px;
 }
