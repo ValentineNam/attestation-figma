@@ -73,7 +73,6 @@ body {
 .nav-list {
   list-style: none;
   display: flex;
-  align-items: left;
   justify-content: space-between;
   margin: 0px;
   padding: 0px;
