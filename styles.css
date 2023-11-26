@@ -515,3 +515,22 @@ body {
 .email-form-footer::-ms-input-placeholder { /* Microsoft Edge */
   color: var(--color-white);
 }
+
+.btn-subscribe {
+  position: relative;
+  width: 180px;
+  height: 103px;
+  left: -100px;
+  top: -82px;
+  border-radius: 30px;
+  border: none;
+  background-color: #F965FC;
+  font-family: var(--jost-bold);
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color-white);
+  padding: 27px 0px 0px 22px;
+}
