@@ -539,8 +539,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 219px;
+  /* width: 200px; */
   justify-content: unset;
-  margin-top: 0px;  
+  margin-top: 0px;
+  margin-right: 100px;
 }
 
 .footer-section h3 {
@@ -564,6 +566,7 @@ body {
 .footer-list li {
   margin-top: 0px;
   margin-bottom: 45px;
+  width: 250px;
   font-family: var(--jost-reg);
   font-size: 31px;
   font-weight: 400;
@@ -571,4 +574,11 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: var(--color-black);
+}
+
+.footer hr {
+  border: 3px solid #000000;
+  width: 1340px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
