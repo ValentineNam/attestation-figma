@@ -43,6 +43,7 @@ body {
 }
 
 /* header */
+
 .head-container {
   margin: 0px;
   padding-top: 45px;
@@ -225,6 +226,7 @@ body {
 }
 
 /* section 2 */
+
 .about-me {
   width: var(--width-full);
   height: 910px;
@@ -442,6 +444,7 @@ body {
 }
 
 /* footer */
+
 .footer {
   width: 1440px;
   height: 809px;
@@ -452,7 +455,6 @@ body {
 .footer-container {
   height: 633px;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .footer-container * {
@@ -534,8 +536,6 @@ body {
 .footer-section {
   display: flex;
   flex-direction: column;
-  height: 219px;
-  /* width: 200px; */
   justify-content: unset;
   margin-top: 0px;
   margin-right: 100px;
@@ -613,7 +613,6 @@ body {
 }
 
 .social-icon img {
-  /* max-height: 100%; */
   max-width: 100%;
   object-fit: scale-down;
 }
