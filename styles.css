@@ -439,6 +439,7 @@ body {
 	cursor: pointer;
 	text-align: center;
 	padding-left: 0px;
+  cursor: pointer;
 }
 
 .contact-me .right-block {
@@ -539,6 +540,7 @@ body {
 	text-align: center;
 	color: var(--color-white);
 	padding: 27px 0px 0px 22px;
+  cursor: pointer;
 }
 
 .footer-section {
